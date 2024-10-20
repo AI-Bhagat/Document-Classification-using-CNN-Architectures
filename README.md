@@ -34,6 +34,7 @@ Feel free to explore the code, data, and results within this repository!
 ---
 
 ## 🔗 Additional Resources
+- [Medium Article I wrote about this](https://medium.com/@atulbhagat.ba/classifying-documents-using-neural-networks-f4a86fd9b94c)
 - [RVL-CDIP Dataset](https://www.cs.cmu.edu/~aharley/rvl-cdip/)
 - [Convolutional Neural Networks (CNNs) Overview](https://towardsdatascience.com/a-comprehensive-introduction-to-different-types-of-cnns-6fa2ed2d891a)
 
