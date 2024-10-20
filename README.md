@@ -1,7 +1,19 @@
-# DA526_IPML
-Document Classification Using Deep Learning
+# DA526_IPML: Document Classification Using Deep Learning
 
-With exponential increase in data generation, there is a need of sophisticated systems that can churn through this humongous data and could cluster or label this data so that it could be used for the downstream tasks. Recent years have proven to be very successful for the deep learning solutions and in the computer vision bubble, Convolution Neural Networks (CNNs) have proved their worth over and over again. Although it must be noted that many transformers based solution with attention nowadays seem to be the new silver bullet, they aren’t in the scope of this study but they fully deserve their mention here. 
-	Computer Vision could be summarised as extracting meaningful information from the digital images in an automated fashion. It includes fields like Image Classification, Object Identification, Detection and Localisation, Segmentation, Pose Estimation etc. We would deal with the field of image classification and even in the field of image classification, this study would focus on “Document Classification” rather than object classifications like Fashion-MNIST database. Any image inherently has a spatial structure based on which we determine its class, like two loops connected together form an 8 or Infinity, depending on the orientation. If we could device an algorithm that could extract these sort of spatial relations from the images that is rotation and scaling invariant, it would classify these images perfectly. However, when we consider a document, not only it does have a structure but it also has an added context i.e the textual information inside the document. So based on this there could be two different approaches for this classification, i.e Optical Character Recognition (OCR) based solutions, which would try to extract the textual information from the given documents, thus having the access to the contextual information of the documents. Other approach is to use CNN based solutions where it would try to classify based on the spatial information only. There could be ensemble approach which utilises both of these information to make the final decision. 
-	In this project, we’ll be classifying the documents based on the spatial information only. The motivation behind this approach is that us humans could easily categorise different documents, with good accuracy, with spatial information only. Also, it is important to note that OCR based solutions are very time consuming, and spatial based solutions are quite quicker and efficient. OC R based ensemble solutions were are also tried on a smaller dataset for this project, but since it is very time consuming and doesn’t guarantee correct textual information extraction, this part was excluded from this report. 
-	So in summary, this project aims at developing different CNN architectures on the RVL CDIP Dataset and analysis and evaluation of each model is conducted in this report. 
+With the rapid increase in data generation, there is a growing need for sophisticated systems to classify and label large datasets for downstream tasks. Deep learning has seen significant success in recent years, particularly in computer vision, where Convolutional Neural Networks (CNNs) have consistently demonstrated their effectiveness. While transformer-based models with attention mechanisms are emerging as powerful tools, this project focuses on CNN-based methods for document classification.
+
+## Project Scope
+This project focuses on **document classification**, a subset of image classification. Unlike typical object classification tasks, such as those seen in the Fashion-MNIST dataset, document classification requires an understanding of both the spatial structure of a document and the contextual (textual) information it contains. There are two primary approaches:
+
+1. **OCR-Based Solutions:** Extract text from the document to use its contextual information.
+2. **CNN-Based Solutions:** Rely solely on spatial layout to classify documents.
+
+Although ensemble approaches combining these methods are possible, this project focuses on CNN-based classification using only spatial information. The motivation for this approach is that humans can categorize documents with high accuracy based on spatial structure alone. Moreover, CNN-based methods are faster and more efficient than OCR-based methods, which can be time-consuming and may not reliably extract textual data.
+
+## Dataset
+The models are trained and evaluated on the **RVL-CDIP dataset**, a widely-used dataset for document classification tasks.
+
+## Objective
+The objective of this project is to develop and evaluate different CNN architectures for document classification using spatial features, and to analyze the performance of each model.
+
+---
