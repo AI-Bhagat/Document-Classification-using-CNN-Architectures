@@ -1,19 +1,39 @@
-# DA526_IPML: Document Classification Using Deep Learning
+# 📄 Document Classification Using Deep Learning
 
-With the rapid increase in data generation, there is a growing need for sophisticated systems to classify and label large datasets for downstream tasks. Deep learning has seen significant success in recent years, particularly in computer vision, where Convolutional Neural Networks (CNNs) have consistently demonstrated their effectiveness. While transformer-based models with attention mechanisms are emerging as powerful tools, this project focuses on CNN-based methods for document classification.
-
-## Project Scope
-This project focuses on **document classification**, a subset of image classification. Unlike typical object classification tasks, such as those seen in the Fashion-MNIST dataset, document classification requires an understanding of both the spatial structure of a document and the contextual (textual) information it contains. There are two primary approaches:
-
-1. **OCR-Based Solutions:** Extract text from the document to use its contextual information.
-2. **CNN-Based Solutions:** Rely solely on spatial layout to classify documents.
-
-Although ensemble approaches combining these methods are possible, this project focuses on CNN-based classification using only spatial information. The motivation for this approach is that humans can categorize documents with high accuracy based on spatial structure alone. Moreover, CNN-based methods are faster and more efficient than OCR-based methods, which can be time-consuming and may not reliably extract textual data.
-
-## Dataset
-The models are trained and evaluated on the **RVL-CDIP dataset**, a widely-used dataset for document classification tasks.
-
-## Objective
-The objective of this project is to develop and evaluate different CNN architectures for document classification using spatial features, and to analyze the performance of each model.
+With the rapid increase in data generation, there is a growing need for sophisticated systems to classify and label large datasets for downstream tasks. **Deep learning** has seen significant success in recent years, particularly in computer vision, where **Convolutional Neural Networks (CNNs)** have consistently demonstrated their effectiveness. While transformer-based models with attention mechanisms are emerging as powerful tools, this project focuses on **CNN-based methods** for document classification.
 
 ---
+
+## 🎯 Project Scope
+This project focuses on **document classification**, a subset of image classification. Unlike object classification tasks, such as those seen in the Fashion-MNIST dataset, document classification requires understanding both:
+
+- 📐 **Spatial Structure** of the document
+- 📝 **Contextual (Textual) Information** within the document
+
+### Two Primary Approaches:
+1. **OCR-Based Solutions**: Extract text from the document to leverage its contextual information.
+2. **CNN-Based Solutions**: Classify documents based on spatial layout alone.
+
+⚡ While ensemble approaches that combine both methods exist, this project focuses on the faster and more efficient **CNN-based classification using spatial information** only. This approach is motivated by the fact that humans can accurately classify documents based on spatial layout alone, without needing to read the text. Additionally, CNNs are faster and avoid the limitations of OCR, such as unreliable text extraction.
+
+---
+
+## 🗂️ Dataset
+The models are trained and evaluated on the **RVL-CDIP dataset**, a well-known and extensive dataset for document classification tasks.
+
+---
+
+## 🚀 Objective
+The objective of this project is to:
+
+- 🛠️ **Develop and evaluate CNN architectures** for document classification using spatial features.
+- 📊 **Analyze the performance** of each model to determine the most effective approach.
+
+Feel free to explore the code, data, and results within this repository!
+
+---
+
+## 🔗 Additional Resources
+- [RVL-CDIP Dataset](https://www.cs.cmu.edu/~aharley/rvl-cdip/)
+- [Convolutional Neural Networks (CNNs) Overview](https://towardsdatascience.com/a-comprehensive-introduction-to-different-types-of-cnns-6fa2ed2d891a)
+
